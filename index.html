@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Website | Jidan</title>
+    <link rel="icon" type="image/png" href="logojidan.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  <style>
+    tr:hover {background-color: lightgreen;}
+  </style>
+  </head>
+  <body>
+
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="#"><img src="logojidan.jpg" alt=""> Jidan</a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#riwayat">Riwayat</a></li>
+          <li><a href="#galery">Galery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="hero-section" id="home">
+      <div class="content">
+        <h2>Welcome<span>!</span> Jidan's Profil Website</h2>
+      </div>
+    </section>
+
+   <section id="about">
+     <h1 class="headings">ABOUT ME</h1>
+      <div id="pic">
+            <img src="about.jpg" alt="">
+            <div id="intro">
+              <h2>Jidan Ainul Mutaqin</h2>
+              <p>
+                Salam kenal saya Jidan Ainul Mutaqin. Saya adalah mahasiswa semester tiga prodi Pendidikan Ilmu Komputer di Universitas Pendidikan Indonesia. Saya merupakan orang yang selalu ingin belajar dan mencari pengalaman sebanyak-banyaknya di manapun dan kapanpun itu. Saya adalah pribadi yang jujur, bertanggung jawab, dan selalu berusaha untuk menjadi lebih baik setiap harinya.
+              </p><br>
+              <h3>Find me at</h3>
+              <a href="https://www.instagram.com/jidan.am/" id="ig"></a>
+            </div>
+      </div>
+   </section>
+
+   <section id="riwayat">
+      <h1 class="headings">RIWAYAT</h1>
+        <table class="tabel">
+          <tr>
+            <th>Tingkat</th>
+            <th>Sekolah</th>
+            <th>Keterangan</th>
+          </tr>
+          <tr>
+            <td>TK</td>
+            <td>TK Islam Al-Azhar 18 Cianjur</td>
+            <td>LULUS</td>
+          </tr>
+          <tr>
+            <td>SD</td>
+            <td>SD Islam Al-Azhar 18 Cianjur</td>
+            <td>LULUS</td>
+          </tr>
+          <tr>
+            <td>SMP</td>
+            <td>SMPN 2 Ciamis</td>
+            <td>LULUS</td>
+          </tr>
+          <tr>
+            <td>SMK</td>
+            <td>SMKN 1 Cianjur</td>
+            <td>LULUS</td>
+          </tr>
+          <tr>
+            <td>S1</td>
+            <td>Universitas Pendidikan Indonesia</td>
+            <td>ON PROGRES</td>
+          </tr>
+        </table>
+   </section>
+
+   <section id="galery">
+      <h1 class="headings">GALERY</h1>
+      <div class="karya">
+        <img src="1.jpg" alt="">
+        <img src="2.jpg" alt="">
+        <img src="3.jpg" alt="">
+        <img src="4.jpg" alt="">
+        <img src="5.jpg" alt="">
+        <img src="6.jpg" alt="">
+      </div>
+   </section>
+
+   <section id="contact">
+      <h1 class="headings">CONTACT ME</h1>
+      
+      <form action="" class="form">
+          <input type="text" name="nama" id="nama" class="input" placeholder="Masukkan nama anda!">
+          <input type="email" name="email" id="email" class="input" placeholder="Masukkan email anda!">
+          <select id="status" name="Kelas">
+            <option value="Pelajar">Pelajar</option>
+            <option value="Bekerja">Bekerja</option>
+            <option value="Pengangguran">Pengangguran</option>
+          </select>
+          <textarea name="pesan" id="pesan" cols="30" rows="10" placeholder="Masukkan pesan disini..."></textarea>
+          <input type="submit" value="Kirim" id="kirim"><br>
+      </form>
+   </section>
+
+   <div style="background-color:#f1f1f1;text-align:center;padding:10px;margin-top:7px;font-size:12px;">copyright <i>Jidan Ainul Mutaqin</i> 2023</div>
+    
+  </body>
+</html>
